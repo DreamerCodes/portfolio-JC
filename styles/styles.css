@@ -1,0 +1,62 @@
+body {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Arial, Sans-serif;
+    color: #000000;
+    background-color: rgb(230, 250, 255);
+    text-align: center;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    }
+h2 {
+    border: 5px solid rgb(61, 168, 170);
+    background-color: rgb(180, 254, 255);
+    }
+h3 {
+    border: 5px solid rgb(61, 168, 170);
+    background-color: rgb(180, 254, 255);
+    }
+div {
+    border: 5px solid rgb(150, 222, 224);
+    background-color: rgb(223, 254, 255);	
+    }
+p {
+    border: 5px solid rgb(150, 222, 224);
+    background-color: rgb(223, 254, 255);	
+    }
+img {
+    border: 5px solid rgb(161, 229, 230);
+    border-radius: 100px;
+    background-color: rgb(224, 254, 255);
+}
+
+/*nav menu style*/
+#navigation ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 0.5em;
+    padding: 0.25em;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 2px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+#about_me ul li {
+    list-style: none;
+}
+table {
+    background-color: rgb(61, 168, 170);
+}
+tbody {
+    background-color: rgb(180, 254, 255);
+}
+
+/*tab and mouse hover*/
+a:hover, a:focus {
+    color:white;
+    background-color:rgb(0, 21, 255);
+    }
