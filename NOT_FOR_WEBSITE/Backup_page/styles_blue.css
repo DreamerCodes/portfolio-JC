@@ -8,18 +8,15 @@ h1 {
     font-size: 1.8em;
     font-weight: bold;
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
     }
 h2 {
-    border: 5px solid rgb(255,116,0);
-    background-color: rgb(255,161,25);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    border: 5px solid rgb(61, 168, 170);
+    background-color: rgb(180, 254, 255);
     }
 h3 {
-    border: 5px solid rgb(255,116,0);
-    background-color: rgb(255,161,25);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
+    border: 5px solid rgb(61, 168, 170);
+    background-color: rgb(180, 254, 255);
+    }
 div {
     border: 5px solid rgb(150, 222, 224);
     background-color: rgb(223, 254, 255);	
@@ -34,11 +31,6 @@ img {
     background-color: rgb(224, 254, 255);
 }
 
-
-
-#design_tip {
-    background-color: rgb(255,161,25);
-}
 /*nav menu style*/
 #navigation ul li {
     list-style-type: none;
