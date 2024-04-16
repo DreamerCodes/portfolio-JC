@@ -3,7 +3,10 @@ body {
     font-weight: normal;
     font-family: Arial, Sans-serif;
     text-align: center;
-}
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+  }
 h1 {
     font-size: 1.8em;
     font-weight: bold;
@@ -13,29 +16,45 @@ h1 {
 h2 {
     border: 5px solid rgb(255,116,0);
     background-color: rgb(255,161,25);
+    border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
 h3 {
     border: 5px solid rgb(255,116,0);
     background-color: rgb(255,161,25);
+    border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 div {
     border: 5px solid rgb(150, 222, 224);
-    background-color: rgb(223, 254, 255);	
+    background-color: rgb(223, 254, 255);
+    padding: 15px;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    border-radius: 10px;
     }
 p {
     border: 5px solid rgb(150, 222, 224);
-    background-color: rgb(223, 254, 255);	
+    background-color: rgb(223, 254, 255);
+    padding: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
     }
 img {
     border: 5px solid rgb(161, 229, 230);
     border-radius: 100px;
     background-color: rgb(224, 254, 255);
+    padding: 10px;
 }
-
-
-
+table { 
+    margin-left: auto;
+    margin-right: auto;
+}
 #design_tip {
     background-color: rgb(255,161,25);
 }
@@ -45,9 +64,9 @@ img {
     float: left;
     margin-right: 0.5em;
     padding: 0.25em;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    border-top: 2px solid gray;
+    border-left: 1px solid rgb(255,116,0);
+    border-right: 1px solid rgb(255,116,0);
+    border-top: 2px solid rgb(255,116,0);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     }
@@ -65,4 +84,8 @@ tbody {
 a:hover, a:focus {
     color:white;
     background-color:rgb(0, 21, 255);
+    }
+
+li.active {
+    color: black;
     }
