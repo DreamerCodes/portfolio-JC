@@ -8,7 +8,7 @@ body {
     margin-bottom: 3%;
   }
 h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
@@ -38,6 +38,7 @@ div {
 p {
     border: 5px solid rgb(150, 222, 224);
     background-color: rgb(223, 254, 255);
+    text-align: center;
     padding: 15px;
     border-width: 5px;
     border-style: solid;
@@ -73,13 +74,31 @@ table {
 #about_me ul li {
     list-style: none;
 }
+div.info {
+    width: 30%;
+    padding: 10px;
+    margin: auto !important;
+    font-size: large;
+    font: bold;
+
+}
+.temp {
+    font-style:italic
+}
+#overview {
+    width: 30%;
+    padding: 10px;
+    margin: auto !important;
+}
 table {
     background-color: rgb(61, 168, 170);
 }
 tbody {
     background-color: rgb(180, 254, 255);
 }
-
+#skipnav {
+    width: 10em;
+}
 /*tab and mouse hover*/
 a:hover, a:focus {
     color:white;
