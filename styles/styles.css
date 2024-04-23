@@ -3,26 +3,31 @@ body {
     font-weight: normal;
     font-family: Arial, Sans-serif;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 3%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-bottom: 3% !important;
+    margin: 0 auto;
+    min-width: 720px !important;
   }
 h1 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    clear: both;
     font-family: "Times New Roman", Times, serif;
     }
 h2 {
     border: 5px solid rgb(255,116,0);
     background-color: rgb(255,161,25);
     border-radius: 10px;
+    clear: both;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
 h3 {
     border: 5px solid rgb(255,116,0);
     background-color: rgb(255,161,25);
     border-radius: 10px;
+    clear: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 div {
@@ -45,20 +50,14 @@ p {
     border-radius: 10px;
     margin-left: 30px !important;
     margin-right: 30px !important;
+    clear: left;
     }
-img {
-    border: 5px solid rgb(161, 229, 230);
-    border-radius: 100px;
-    background-color: rgb(224, 254, 255);
-    padding: 10px;
-}
-table { 
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
 #design_tip {
     background-color: rgb(255,161,25);
 }
+
 /*nav menu style*/
 #navigation ul li {
     list-style-type: none;
@@ -71,46 +70,85 @@ table {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     }
+
+nav {
+    clear: left;
+}
+/*nav menu style ends*/
+
+/*about me section*/
+img {
+    border: 5px solid rgb(161, 229, 230);
+    border-radius: 100px;
+    background-color: rgb(224, 254, 255);
+}
 #about_me ul li {
     list-style: none;
 }
+#meInfo{
+    text-align: center;
+}
+
 div.info {
-    width: 30%;
+    width: 40%;
     padding: 10px;
-    margin: auto !important;
+    margin: 0 auto !important;
     font-size: large;
     font: bold;
-
+    float: left;
+    clear: both;
+    text-align: center;
 }
+/*about me section ends*/
+
+/*about course section*/
+#overview {
+    width: 35%;
+    padding: 10px;
+    margin: auto !important;
+    float: right;
+    clear: right;
+}
+#courseInfo {
+    text-align: center;
+}
+/*about course section ends*/
+
 .temp {
     font-style:italic
 }
-#overview {
-    width: 30%;
-    padding: 10px;
-    margin: auto !important;
-}
+
+/*table style*/
 table {
     background-color: rgb(61, 168, 170);
+    margin-left: auto;
+    margin-right: auto;
 }
 tbody {
     background-color: rgb(180, 254, 255);
 }
+/*table style ends*/
+
 #skipnav {
     width: 10em;
+    top: 5px;
+    left: 5px;
+    position: relative;
+    right: 12.5%;
 }
-/*tab and mouse hover*/
+/*tab and mouse hover & currect page tab*/
 a:hover, a:focus {
     color:white;
     background-color:black;
     font-size: 17px;
     }
+li.active {
+    color: black;
+    }
+
 #gallery_soon {
     border: 5px solid rgb(255,116,0);
     background-color: rgb(255,161,25);
     font-style:italic
 }
 
-li.active {
-    color: black;
-    }
