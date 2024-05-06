@@ -21,6 +21,7 @@ h2 {
     background-color: rgb(255,161,25);
     border-radius: 10px;
     clear: both;
+    color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
 h3 {
@@ -39,6 +40,7 @@ div {
     margin-left: 30px !important;
     margin-right: 30px !important;
     border-radius: 10px;
+    color:black;
     }
 p {
     border: 5px solid rgb(150, 222, 224);
@@ -51,6 +53,7 @@ p {
     margin-left: 30px !important;
     margin-right: 30px !important;
     clear: left;
+    color:black;
     }
 
 
@@ -98,6 +101,7 @@ div.info {
     float: left;
     clear: both;
     text-align: center;
+
 }
 /*about me section ends*/
 
@@ -126,6 +130,10 @@ table {
 }
 tbody {
     background-color: rgb(180, 254, 255);
+}
+
+tr {
+    color:black;
 }
 /*table style ends*/
 
