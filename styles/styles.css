@@ -79,6 +79,25 @@ nav {
 }
 /*nav menu style ends*/
 
+
+#thumbnail_link:hover, #thumbnail_link:focus {
+    border-style: dotted !important;
+    border-color: rgb(255,116,0);
+    }
+
+#thumbnail_link {
+    border-color: transparent;
+    }
+
+div.desc {
+    border-color: transparent;
+}
+#thumbnail:hover, #thumbnail:focus {
+    border-style: hidden;
+    border-color: rgb(255,116,0);
+    background-color: transparent;
+    }
+
 /*about me section*/
 img {
     border: 5px solid rgb(161, 229, 230);
@@ -103,6 +122,8 @@ div.info {
     text-align: center;
 
 }
+
+
 /*about me section ends*/
 
 /*about course section*/
