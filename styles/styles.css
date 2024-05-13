@@ -181,3 +181,19 @@ li.active {
     font-style:italic
 }
 
+button {
+    margin-right: 0.5em;
+    padding: 0.25em;
+    border-left: 1px solid rgb(255,116,0);
+    border-right: 1px solid rgb(255,116,0);
+    border-top: 2px solid rgb(255,116,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover, button:active, button:focus {
+    color:white;
+    background-color:black;
+    font-size: 17px;
+}
